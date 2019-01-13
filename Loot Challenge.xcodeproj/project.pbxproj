@@ -14,6 +14,7 @@
 		C0E25BAF21EB78DD003E5583 /* JSONDecoderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E25BAE21EB78DD003E5583 /* JSONDecoderProtocol.swift */; };
 		C0E25BB121EB7900003E5583 /* URLSessionDataTaskProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E25BB021EB7900003E5583 /* URLSessionDataTaskProtocol.swift */; };
 		C0E25BB321EB791B003E5583 /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E25BB221EB791A003E5583 /* URLSessionProtocol.swift */; };
+		C0E25BB621EB79AB003E5583 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E25BB521EB79AB003E5583 /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		C0E25BAE21EB78DD003E5583 /* JSONDecoderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoderProtocol.swift; sourceTree = "<group>"; };
 		C0E25BB021EB7900003E5583 /* URLSessionDataTaskProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionDataTaskProtocol.swift; sourceTree = "<group>"; };
 		C0E25BB221EB791A003E5583 /* URLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
+		C0E25BB521EB79AB003E5583 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		C06E9DDD21EB751900B33E78 /* Loot Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				C0E25BB421EB799D003E5583 /* Core */,
 				C0E25BAC21EB7863003E5583 /* Network */,
 				C06E9DDE21EB751900B33E78 /* AppDelegate.swift */,
 				C06E9DE521EB751B00B33E78 /* Assets.xcassets */,
@@ -113,6 +116,14 @@
 				C0E25BB221EB791A003E5583 /* URLSessionProtocol.swift */,
 			);
 			path = Wrappers;
+			sourceTree = "<group>";
+		};
+		C0E25BB421EB799D003E5583 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C0E25BB521EB79AB003E5583 /* Result.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0E25BB321EB791B003E5583 /* URLSessionProtocol.swift in Sources */,
+				C0E25BB621EB79AB003E5583 /* Result.swift in Sources */,
 				C0E25BAF21EB78DD003E5583 /* JSONDecoderProtocol.swift in Sources */,
 				C06E9DDF21EB751900B33E78 /* AppDelegate.swift in Sources */,
 				C0E25BB121EB7900003E5583 /* URLSessionDataTaskProtocol.swift in Sources */,
