@@ -11,6 +11,7 @@ import Foundation
 struct NetworkBuilder {
 	static func makeNetworkService() -> NetworkServiceProtocol {
 		let decoder = JSONDecoder()
+		decoder.dateDecodingStrategy = .iso8601
 		let mapper = JSONMapper(decoder: decoder)
 		let session = URLSession.shared
 		return NetworkService(mapper: mapper, session: session)
