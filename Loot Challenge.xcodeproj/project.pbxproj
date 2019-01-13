@@ -22,6 +22,7 @@
 		C0E25BC221EB8EA3003E5583 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E25BC121EB8EA3003E5583 /* Transaction.swift */; };
 		C0E25BC421EB92E2003E5583 /* TransactionsRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E25BC321EB92E2003E5583 /* TransactionsRequestData.swift */; };
 		C0E25BC621EB940F003E5583 /* TransactionsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E25BC521EB940F003E5583 /* TransactionsInteractor.swift */; };
+		C0E25BC821EB978A003E5583 /* NetworkBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E25BC721EB978A003E5583 /* NetworkBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		C0E25BC121EB8EA3003E5583 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		C0E25BC321EB92E2003E5583 /* TransactionsRequestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsRequestData.swift; sourceTree = "<group>"; };
 		C0E25BC521EB940F003E5583 /* TransactionsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsInteractor.swift; sourceTree = "<group>"; };
+		C0E25BC721EB978A003E5583 /* NetworkBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				C0E25BB921EB7CE5003E5583 /* RequestData.swift */,
 				C0E25BBB21EB8183003E5583 /* JSONMapper.swift */,
 				C0E25BBD21EB828A003E5583 /* NetworkService.swift */,
+				C0E25BC721EB978A003E5583 /* NetworkBuilder.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				C0E25BB821EB7AB3003E5583 /* HTTPMethod.swift in Sources */,
 				C0E25BC221EB8EA3003E5583 /* Transaction.swift in Sources */,
 				C0E25BBE21EB828A003E5583 /* NetworkService.swift in Sources */,
+				C0E25BC821EB978A003E5583 /* NetworkBuilder.swift in Sources */,
 				C0E25BC621EB940F003E5583 /* TransactionsInteractor.swift in Sources */,
 				C0E25BAF21EB78DD003E5583 /* JSONDecoderProtocol.swift in Sources */,
 				C0E25BBA21EB7CE5003E5583 /* RequestData.swift in Sources */,
