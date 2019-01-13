@@ -20,6 +20,7 @@
 		C0E25BBC21EB8183003E5583 /* JSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E25BBB21EB8183003E5583 /* JSONMapper.swift */; };
 		C0E25BBE21EB828A003E5583 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E25BBD21EB828A003E5583 /* NetworkService.swift */; };
 		C0E25BC221EB8EA3003E5583 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E25BC121EB8EA3003E5583 /* Transaction.swift */; };
+		C0E25BC421EB92E2003E5583 /* TransactionsRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E25BC321EB92E2003E5583 /* TransactionsRequestData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		C0E25BBB21EB8183003E5583 /* JSONMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMapper.swift; sourceTree = "<group>"; };
 		C0E25BBD21EB828A003E5583 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		C0E25BC121EB8EA3003E5583 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		C0E25BC321EB92E2003E5583 /* TransactionsRequestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsRequestData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				C0E25BC121EB8EA3003E5583 /* Transaction.swift */,
+				C0E25BC321EB92E2003E5583 /* TransactionsRequestData.swift */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0E25BB321EB791B003E5583 /* URLSessionProtocol.swift in Sources */,
+				C0E25BC421EB92E2003E5583 /* TransactionsRequestData.swift in Sources */,
 				C0E25BB621EB79AB003E5583 /* Result.swift in Sources */,
 				C0E25BBC21EB8183003E5583 /* JSONMapper.swift in Sources */,
 				C0E25BB821EB7AB3003E5583 /* HTTPMethod.swift in Sources */,
