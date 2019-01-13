@@ -15,6 +15,7 @@
 		C0E25BB121EB7900003E5583 /* URLSessionDataTaskProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E25BB021EB7900003E5583 /* URLSessionDataTaskProtocol.swift */; };
 		C0E25BB321EB791B003E5583 /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E25BB221EB791A003E5583 /* URLSessionProtocol.swift */; };
 		C0E25BB621EB79AB003E5583 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E25BB521EB79AB003E5583 /* Result.swift */; };
+		C0E25BB821EB7AB3003E5583 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E25BB721EB7AB3003E5583 /* HTTPMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		C0E25BB021EB7900003E5583 /* URLSessionDataTaskProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionDataTaskProtocol.swift; sourceTree = "<group>"; };
 		C0E25BB221EB791A003E5583 /* URLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
 		C0E25BB521EB79AB003E5583 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		C0E25BB721EB7AB3003E5583 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				C0E25BAD21EB78D2003E5583 /* Wrappers */,
+				C0E25BB721EB7AB3003E5583 /* HTTPMethod.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			files = (
 				C0E25BB321EB791B003E5583 /* URLSessionProtocol.swift in Sources */,
 				C0E25BB621EB79AB003E5583 /* Result.swift in Sources */,
+				C0E25BB821EB7AB3003E5583 /* HTTPMethod.swift in Sources */,
 				C0E25BAF21EB78DD003E5583 /* JSONDecoderProtocol.swift in Sources */,
 				C06E9DDF21EB751900B33E78 /* AppDelegate.swift in Sources */,
 				C0E25BB121EB7900003E5583 /* URLSessionDataTaskProtocol.swift in Sources */,
