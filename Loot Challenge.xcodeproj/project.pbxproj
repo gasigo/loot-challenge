@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C06E9DDF21EB751900B33E78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06E9DDE21EB751900B33E78 /* AppDelegate.swift */; };
-		C06E9DE121EB751900B33E78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06E9DE021EB751900B33E78 /* ViewController.swift */; };
-		C06E9DE421EB751900B33E78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C06E9DE221EB751900B33E78 /* Main.storyboard */; };
 		C06E9DE621EB751B00B33E78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06E9DE521EB751B00B33E78 /* Assets.xcassets */; };
 		C06E9DE921EB751B00B33E78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C06E9DE721EB751B00B33E78 /* LaunchScreen.storyboard */; };
 		C06E9DF421EB751B00B33E78 /* Loot_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06E9DF321EB751B00B33E78 /* Loot_ChallengeTests.swift */; };
@@ -28,8 +26,6 @@
 /* Begin PBXFileReference section */
 		C06E9DDB21EB751900B33E78 /* Loot Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Loot Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06E9DDE21EB751900B33E78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C06E9DE021EB751900B33E78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C06E9DE321EB751900B33E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C06E9DE521EB751B00B33E78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C06E9DE821EB751B00B33E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C06E9DEA21EB751B00B33E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				C06E9DDE21EB751900B33E78 /* AppDelegate.swift */,
-				C06E9DE021EB751900B33E78 /* ViewController.swift */,
-				C06E9DE221EB751900B33E78 /* Main.storyboard */,
 				C06E9DE521EB751B00B33E78 /* Assets.xcassets */,
 				C06E9DE721EB751B00B33E78 /* LaunchScreen.storyboard */,
 				C06E9DEA21EB751B00B33E78 /* Info.plist */,
@@ -179,7 +173,6 @@
 			files = (
 				C06E9DE921EB751B00B33E78 /* LaunchScreen.storyboard in Resources */,
 				C06E9DE621EB751B00B33E78 /* Assets.xcassets in Resources */,
-				C06E9DE421EB751900B33E78 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +190,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C06E9DE121EB751900B33E78 /* ViewController.swift in Sources */,
 				C06E9DDF21EB751900B33E78 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,14 +213,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C06E9DE221EB751900B33E78 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C06E9DE321EB751900B33E78 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C06E9DE721EB751B00B33E78 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -363,6 +347,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2WPG2PXX6C;
 				INFOPLIST_FILE = "Loot Challenge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,6 +366,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2WPG2PXX6C;
 				INFOPLIST_FILE = "Loot Challenge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
