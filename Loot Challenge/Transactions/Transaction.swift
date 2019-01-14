@@ -27,7 +27,7 @@ struct Transaction: Decodable {
 	enum CodingKeys: String, CodingKey {
 		case amount
 		case description
-		case date = "settlement_date"
+		case date = "authorisation_date"
 	}
 	
 	private enum Errors: Error {

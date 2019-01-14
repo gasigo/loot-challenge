@@ -8,13 +8,6 @@
 
 import Foundation
 
-protocol TransactionsViewProtocol: class {
-	func load(transactions: [GroupedTransaction])
-	func showAlert(title: String, message: String)
-	func startLoading()
-	func stopLoading()
-}
-
 protocol TransactionsPresenterProtocol {
 	func handleLoad(for view: TransactionsViewProtocol)
 }
@@ -63,15 +56,5 @@ class TransactionsPresenter: TransactionsPresenterProtocol {
 	enum Constants: String {
 		case errorTitle = "Error"
 		case errorMessage = "Could't fetch transactions data."
-	}
-}
-
-struct GroupedTransaction {
-	let title: String
-	let transactions: [Transaction]
-	
-	init(title: String, transactions: [Transaction]) {
-		self.title = title
-		self.transactions = transactions
 	}
 }
