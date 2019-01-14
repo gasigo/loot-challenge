@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="54" id="KGk-i7-Jjw" customClass="TransactionCell" customModule="Loot_Challenge" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="54"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="53.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jdC-ZP-2SY">
+                        <rect key="frame" x="313.5" y="0.0" width="6.5" height="53.5"/>
+                        <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UHU-K5-8GO">
+                        <rect key="frame" x="16" y="18.5" width="74" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUL-jW-CYT">
+                        <rect key="frame" x="255" y="18.5" width="50.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="jdC-ZP-2SY" secondAttribute="bottom" id="EoE-Jk-Dju"/>
+                    <constraint firstItem="jdC-ZP-2SY" firstAttribute="leading" secondItem="gUL-jW-CYT" secondAttribute="trailing" constant="8" id="IaP-xV-iEg"/>
+                    <constraint firstItem="gUL-jW-CYT" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="PBk-BL-eFw"/>
+                    <constraint firstItem="gUL-jW-CYT" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="UHU-K5-8GO" secondAttribute="trailing" constant="4" id="SWQ-Id-8nU"/>
+                    <constraint firstItem="UHU-K5-8GO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="dNx-5G-K2b"/>
+                    <constraint firstItem="jdC-ZP-2SY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="gh7-At-eE8"/>
+                    <constraint firstAttribute="trailing" secondItem="jdC-ZP-2SY" secondAttribute="trailing" id="mhv-b6-KYe"/>
+                    <constraint firstItem="UHU-K5-8GO" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="zpR-jN-B2L"/>
+                </constraints>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstItem="jdC-ZP-2SY" firstAttribute="width" secondItem="KGk-i7-Jjw" secondAttribute="width" multiplier="0.02" id="FWQ-du-16F"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="amountLabel" destination="gUL-jW-CYT" id="OcE-Pd-qII"/>
+                <outlet property="descriptionLabel" destination="UHU-K5-8GO" id="0yk-by-eJc"/>
+                <outlet property="transactionTypeView" destination="jdC-ZP-2SY" id="Bdg-nv-MAk"/>
+            </connections>
+            <point key="canvasLocation" x="137.59999999999999" y="140.32983508245877"/>
+        </tableViewCell>
+    </objects>
+</document>

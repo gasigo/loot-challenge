@@ -9,7 +9,9 @@
 import Foundation
 
 protocol NetworkServiceProtocol {
-	func request<Data: RequestData, Output: Decodable>(with: Data, handler: @escaping (Result<Output>) -> Void)
+	func request<ResponseType: Decodable>(with: RequestData,
+										  responseType: ResponseType.Type,
+										  handler: @escaping (Result<ResponseType>) -> Void)
 }
 
 struct NetworkService: NetworkServiceProtocol {
@@ -21,8 +23,9 @@ struct NetworkService: NetworkServiceProtocol {
 		self.session = session
 	}
 	
-	func request<Data: RequestData, Output: Decodable>(with requestData: Data,
-													   handler: @escaping (Result<Output>) -> Void) {
+	func request<ResponseType: Decodable>(with requestData: RequestData,
+										  responseType: ResponseType.Type,
+										  handler: @escaping (Result<ResponseType>) -> Void) {
 		guard let url = URL(string: requestData.host + requestData.path) else {
 			handler(.error(Errors.invalidURL))
 			return
