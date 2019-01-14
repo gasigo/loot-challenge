@@ -12,7 +12,13 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 	var window: UIWindow?
 
-	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+	let interactor = TransactionsInteractor(networkService: NetworkBuilder.makeNetworkService())
+	
+	func application(_ application: UIApplication,
+					 didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+		self.window = UIWindow(frame: UIScreen.main.bounds)
+		self.window?.rootViewController = TransactionsBuilder.makeTransactionsView()
+		self.window?.makeKeyAndVisible()
 		return true
 	}
 }
