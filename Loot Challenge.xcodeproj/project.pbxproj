@@ -12,6 +12,7 @@
 		C04D686B21ED3DEE00264168 /* TransactionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C04D686921ED3DEE00264168 /* TransactionsView.xib */; };
 		C04D686F21ED3EA800264168 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04D686D21ED3EA800264168 /* TransactionCell.swift */; };
 		C04D687021ED3EA800264168 /* TransactionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C04D686E21ED3EA800264168 /* TransactionCell.xib */; };
+		C04D687221ED552A00264168 /* TransactionsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04D687121ED552A00264168 /* TransactionsBuilder.swift */; };
 		C06E9DDF21EB751900B33E78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06E9DDE21EB751900B33E78 /* AppDelegate.swift */; };
 		C06E9DE621EB751B00B33E78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06E9DE521EB751B00B33E78 /* Assets.xcassets */; };
 		C06E9DE921EB751B00B33E78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C06E9DE721EB751B00B33E78 /* LaunchScreen.storyboard */; };
@@ -47,6 +48,7 @@
 		C04D686921ED3DEE00264168 /* TransactionsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionsView.xib; sourceTree = "<group>"; };
 		C04D686D21ED3EA800264168 /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
 		C04D686E21ED3EA800264168 /* TransactionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionCell.xib; sourceTree = "<group>"; };
+		C04D687121ED552A00264168 /* TransactionsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsBuilder.swift; sourceTree = "<group>"; };
 		C06E9DDB21EB751900B33E78 /* Loot Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Loot Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06E9DDE21EB751900B33E78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C06E9DE521EB751B00B33E78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				C0E25BC921EBB004003E5583 /* TransactionsPresenter.swift */,
 				C04D686821ED3DEE00264168 /* TransactionsView.swift */,
 				C04D686921ED3DEE00264168 /* TransactionsView.xib */,
+				C04D687121ED552A00264168 /* TransactionsBuilder.swift */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				C0E25BC421EB92E2003E5583 /* TransactionsRequestData.swift in Sources */,
 				C0E25BB621EB79AB003E5583 /* Result.swift in Sources */,
 				C0E25BBC21EB8183003E5583 /* JSONMapper.swift in Sources */,
+				C04D687221ED552A00264168 /* TransactionsBuilder.swift in Sources */,
 				C04D686A21ED3DEE00264168 /* TransactionsView.swift in Sources */,
 				C0E25BB821EB7AB3003E5583 /* HTTPMethod.swift in Sources */,
 				C0E25BC221EB8EA3003E5583 /* Transaction.swift in Sources */,

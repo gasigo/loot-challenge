@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import MapKit
 
 protocol TransactionsViewProtocol: class {
 	func load(transactions: [GroupedTransaction])
