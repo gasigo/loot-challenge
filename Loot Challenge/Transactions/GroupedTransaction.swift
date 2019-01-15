@@ -9,9 +9,4 @@
 struct GroupedTransaction {
 	let title: String
 	let transactions: [Transaction]
-	
-	init(title: String, transactions: [Transaction]) {
-		self.title = title
-		self.transactions = transactions
-	}
 }

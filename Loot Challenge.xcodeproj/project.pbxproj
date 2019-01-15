@@ -177,12 +177,12 @@
 				C04D686C21ED3E8700264168 /* TransactionCell */,
 				C0E25BC121EB8EA3003E5583 /* Transaction.swift */,
 				C04D686021ED39E900264168 /* GroupedTransaction.swift */,
+				C04D687121ED552A00264168 /* TransactionsBuilder.swift */,
 				C0E25BC321EB92E2003E5583 /* TransactionsRequestData.swift */,
 				C0E25BC521EB940F003E5583 /* TransactionsInteractor.swift */,
 				C0E25BC921EBB004003E5583 /* TransactionsPresenter.swift */,
 				C04D686821ED3DEE00264168 /* TransactionsView.swift */,
 				C04D686921ED3DEE00264168 /* TransactionsView.xib */,
-				C04D687121ED552A00264168 /* TransactionsBuilder.swift */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
